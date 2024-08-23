@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="scorekeeper.css">
+        
+        <title>Score Keeper</title>
+    </head>
+    <body>
+        <div class="container">
+        <img src="batmitton.jpeg">
+        
+        <h4>Ping Pong Score Keeper</h4>
+        <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+        <style>
+            .winner{
+                color:green;
+            }
+            .looser{
+                color:red;
+            }
+        </style>
+        <p>Use the Button below to keep score</p>
+        <label for="play">Playing To</label>
+        <select name="score" id="play">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <div class="btns">
+            <button id="p1Button">+1Player One</button>
+            <button id="p2Button">+1Player Two</button>
+            <button id="reset">Reset</button>
+
+        </div>
+        </div>
+            <script src="scorekeeper.js" ></script>
+        
+    </body>
+</html>

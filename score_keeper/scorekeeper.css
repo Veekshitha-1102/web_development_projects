@@ -1,0 +1,60 @@
+.container{
+    text-align:center;
+    border: medium solid black;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+img{
+    width: 444px;
+}
+h4{
+    margin-top:0px;
+    margin-right:220px;
+}
+h1{
+    margin-right:340px;
+}
+p{
+    margin-right:150px;
+}
+#play{
+    margin-right:302px;
+    margin-bottom: 15px;
+}
+#p1Button{
+    width:148px;
+    height:35px;
+    background-color: aqua;
+    color: white;
+    border: solid white;
+    border-left: 1px;
+    border-bottom: 1px;
+    
+}
+#p2Button{
+    width:148px;
+    height:35px;
+    background-color:blue;
+    color: white;
+    border: solid white;
+    border-left: 1px;
+    border-bottom: 1px;
+    
+}
+
+#reset{
+    width:148px;
+    height:35px;
+    background-color: red;
+    color: white;
+    border: solid white;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right:1px;
+}
+
+.btns{
+    display: flex;
+    
+}
